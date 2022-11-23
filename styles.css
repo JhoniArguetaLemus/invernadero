@@ -1,0 +1,107 @@
+body{
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 2em;
+    min-height: 100vh;
+}
+
+.navbar{
+ 
+    padding: 2rem;
+    color: white;
+
+}
+
+.navbar-brand img{
+    border-radius: 15px;
+
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+    color: red;
+
+    
+}
+
+@media screen and (max-width:767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+/*
+descripcion
+*/
+
+.descripcion{
+    
+    background-color: #c9fdd7;
+    margin-top: 50px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 18px 10px 41px 5px rgba(39,31,31,0.78);
+    -webkit-box-shadow: 18px 10px 41px 5px rgba(39,31,31,0.78);
+   -moz-box-shadow: 18px 10px 41px 5px rgba(39,31,31,0.78);
+    max-width: 1200px;
+}
+
+.grid{
+    text-align: center;
+    margin-top: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d5def5; 
+
+    padding: 20px;
+    border-radius: 15px;
+
+    box-shadow: 18px 10px 41px 5px rgba(39,31,31,0.78);
+    -webkit-box-shadow: 18px 10px 41px 5px rgba(39,31,31,0.78);
+   -moz-box-shadow: 18px 10px 41px 5px rgba(39,31,31,0.78);
+    
+}
+
+.integrantes{
+    margin-bottom: 200px;
+}
+@media screen and(min-width: 768px){
+    .columna{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.footer{
+   
+    background-color: #38598b; 
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+
+   
+
+}
+
+.footer div{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/*zoom a imagenes*/
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.5); 
+    border-radius: 15px;
+}
